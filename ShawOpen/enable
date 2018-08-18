@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo ifconfig wlp3s0 down
+sudo macchanger -m 00:11:22:33:44:55 wlp3s0
+sudo ifconfig wlp3s0 up
